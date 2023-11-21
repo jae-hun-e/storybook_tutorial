@@ -7,6 +7,7 @@ export default {
   title: "Components/TaskList",
   component: TaskList,
   decorators: [(story) => <div style={{ padding: "3rem" }}>{story()}</div>],
+  tags: ["autodocs"],
 };
 
 const Template = (args) => <TaskList {...args} />;

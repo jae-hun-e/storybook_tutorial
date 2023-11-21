@@ -1,5 +1,6 @@
 import React from "react";
 import Task from "./Task";
+import PropTypes from "prop-types";
 
 export default function TaskList({ loading, tasks, onPinTask, onArchiveTask }) {
   const events = {
@@ -50,3 +51,18 @@ export default function TaskList({ loading, tasks, onPinTask, onArchiveTask }) {
     </div>
   );
 }
+
+TaskList.propTypes = {
+  /** 체크 여부 값 */
+  loading: PropTypes.bool,
+  /** list 데이터 */
+  tasks: PropTypes.arrayOf(Task.propTypes.task).isRequired,
+  /** pin 클릭했을때 실행 함수 */
+  onPinTask: PropTypes.func,
+  /** 활성화 됐을때 실행 함수 */
+  onArchiveTask: PropTypes.func,
+};
+
+TaskList.defaultProps = {
+  loading: false,
+};
