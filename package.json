@@ -29,6 +29,7 @@
     "@storybook/addon-essentials": "^7.5.2",
     "@storybook/addon-interactions": "^7.5.2",
     "@storybook/addon-links": "^7.5.2",
+    "@storybook/addon-storyshots": "^7.5.3",
     "@storybook/blocks": "^7.5.2",
     "@storybook/jest": "^0.2.3",
     "@storybook/react": "^7.5.2",
@@ -40,6 +41,7 @@
     "msw": "^1.2.1",
     "msw-storybook-addon": "^1.10.0",
     "prop-types": "^15.8.1",
+    "react-test-renderer": "^18.2.0",
     "storybook": "^7.5.2",
     "vite": "^4.2.0"
   },

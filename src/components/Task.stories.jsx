@@ -3,7 +3,7 @@ import Task from "./Task.jsx";
 
 export default {
   component: Task, // 타겟 컴포넌트
-  title: "Task", // 사이드바에 표시되는 스토리 분류명
+  title: "Components/Task", // 사이드바에 표시되는 스토리 분류명
 };
 
 // 컴포넌트를 반환하는 템플릿 함수를 만들어서 재사용함
