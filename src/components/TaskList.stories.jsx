@@ -5,6 +5,9 @@ import * as TaskStories from "./Task.stories";
 
 export default {
   title: "Components/TaskList",
+  parameters: {
+    componentSubtitle: "task list를 보여주는 컴포넌트", // 부제목
+  },
   component: TaskList,
   decorators: [(story) => <div style={{ padding: "3rem" }}>{story()}</div>],
   tags: ["autodocs"],

@@ -2,6 +2,10 @@ import React from "react";
 import Task from "./Task";
 import PropTypes from "prop-types";
 
+/**
+ * 설명을 적고싶으면 컴포넌트 위에다가 적으면 됨
+ * - 이렇게 적고 더 자세히 적고싶을 때는 MDX를 이용하자!
+ */
 export default function TaskList({ loading, tasks, onPinTask, onArchiveTask }) {
   const events = {
     onPinTask,
